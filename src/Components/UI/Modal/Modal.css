@@ -1,0 +1,54 @@
+.Modal {
+    position: fixed;
+    top: 30vh;
+    left: 29vw;
+    z-index: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;    
+    transition: all 0.3s ease-out;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    width: 40vw;
+}
+
+.Modal label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Modal label input {
+    width: 20px;
+}
+.Modal span {
+    display: flex;
+    gap: 10px;
+}
+
+.Modal-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Modal-main  {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.Modal-main input {
+    width: 100%;
+    padding: 10px;
+}
+
+.Modal-main button {
+    padding: 10px 20px;
+    background-color: rgb(156, 93, 239);
+    color: white;
+}
